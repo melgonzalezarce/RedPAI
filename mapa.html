@@ -1,0 +1,95 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="lib/estilo.css" rel="stylesheet" type="text/css" />
+<script  type="text/javascript"  src="lib/jquery.min.js" charset="utf-8" ></script>
+<script  type="text/javascript"  src="lib/raphael-min.js" charset="utf-8" ></script>
+<script type="text/javascript"  src="lib/jquery.mapael.js" charset="utf-8" ></script>
+<script type="text/javascript"  src="lib/region_sur_sureste_anuies.js" charset="utf-8" ></script>
+<script type="text/javascript"  src="lib/jquery.corner.js" charset="utf-8" ></script>
+
+	</head>
+	<body>
+	<div id="wrap">
+		<div id="encabezado"></div>
+		<div id="menuLateral"></div>
+		<div id="cuerpo">
+			<div class="container">
+				<div class="map">El mapa no puede ser visualizado correctamente.</div><!--Fin de map-->
+			</div><!--Fin de container-->
+		</div><!--Fin de cuerpo-->
+		<div id="pie"></div><!--Fin de pie-->
+	</div><!--Fin de Wrap-->
+
+<script > 
+//$(".container").corner("round 8px");
+$(".map").corner("round 8px");
+$(function(){
+$(".container").mapael({
+	map : {
+		name : "region_sur_sureste_anuies"
+		, defaultArea: {
+				attrs : {
+					fill : "#bcbcbc"
+					, stroke: "white"
+				}
+				, attrsHover : {
+					fill: "#51938e"
+				}
+            }
+		}
+		
+		, areas: {
+			"yucatan":{
+				
+				href: "#",
+				tooltip: {content : "<span style=\"font-weight:bold;\">Yucatán</span>"},
+		
+			},
+			"campeche":{
+				target: "",
+				href: "#",
+				tooltip: {content : "<span style=\"font-weight:bold;\">Campeche</span>"}
+				
+			},
+			"quintanaroo":{
+				target: "",
+				href: "#",
+				tooltip: {content : "<span style=\"font-weight:bold;\">Quintana Roo</span>"}
+				
+			},
+			"chiapas":{
+				target: "",
+				href: "#",
+				tooltip: {content : "<span style=\"font-weight:bold;\">Chiapas</span>"}
+				
+			},
+			"tabasco":{
+				target: "",
+				href: "#",
+				tooltip: {content : "<span style=\"font-weight:bold;\">Tabasco</span>"}
+				
+			},
+			"oaxaca":{
+				target: "",
+				href: "#",
+				tooltip: {content : "<span style=\"font-weight:bold;\">Oaxaca</span>"}
+				
+			},
+			"veracruz":{
+				target: "",
+				href: "#",
+				tooltip: {content : "<span style=\"font-weight:bold;\">Veracruz</span>"}
+				
+			},
+			
+		}
+
+});
+});
+
+
+</script>
+
+	</body>
+</html>

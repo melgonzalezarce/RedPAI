@@ -1,0 +1,24 @@
+.container {
+    max-width: 400px;
+    margin:auto;
+}
+        
+.map{
+	background-color:white;
+}
+		
+.mapTooltip {
+	position : fixed;
+	background-color : #99b833;
+	moz-opacity:0.70;
+	opacity: 0.70;
+	filter:alpha(opacity=70);
+	border-radius:10px;
+	padding : 10px;
+	z-index: 1000;
+	max-width: 200px;
+	display:none;
+	color:#343434;
+}
+
+

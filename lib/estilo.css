@@ -1,0 +1,160 @@
+body{
+	background-color: white;
+	margin: 0 0 0 0;
+	font-family: arial, sans-serif;
+
+}
+
+#wrap{
+	width : 1200px;
+	margin : 0 auto;
+	background-color: #d9e9d7;
+	overflow: hidden;
+}
+
+#encabezado{
+	width : 1200px;
+	height: 183px;
+	display:table-cell;
+	vertical-align: bottom;
+	text-align:right;
+	background-image: url("../img/banner.jpg"); 
+}
+
+#encabezado ul{
+	margin: 0 auto;
+	padding-bottom:6px;
+	padding-right:15px;
+}
+			
+#encabezado ul li{
+	text-align:right;
+	vertical-align: bottom;
+	display: inline;
+	padding: 4px 2px 6px 2px;
+}
+
+#encabezado ul li a:hover{
+		background-color: #99b833;
+		
+}
+#encabezado ul li a:hover{
+		color:white;
+		
+}
+
+#encabezado ul li a{
+	background-color: white;
+	/*display:block;*/
+	text-decoration:none;
+	color:black;
+	padding:2px 4px 2px 4px;
+}
+
+
+#menuLateral {
+	float:left;
+	width: 150px;
+	text-align:left;
+}
+
+#menuLateral ul{
+	margin-left:0px;
+	padding-left:0px;
+	padding-right:0px;
+	
+}
+		
+#menuLateral ul li{
+	display:block;
+	
+	padding: 4px 3px 3px 0px;
+	
+}
+
+#menuLateral ul li a{
+	text-decoration:none;
+	color:black;
+	display:block;
+	background-color: white;
+	padding: 2px 2px 2px 8px;
+}
+
+#menuLateral ul li a:hover{
+		background-color: #99b833;
+		color:white;
+}
+		
+
+
+.menu2El{
+	border-radius:0px 4px 4px 0px;
+	-moz-border-radius:0px 4px 4px 0px;
+	-webkit-border-radius:0px 4px 4px 0px;
+	-o-border-radius:0px 4px 4px 0px;
+}
+
+.menuEl{
+	border-radius:4px 4px 0px 0px;
+	-moz-border-radius:4px 4px 0px 0px;
+	-webkit-border-radius:4px 4px 0px 0px;
+	-o-border-radius:4px 4px 0px 0px;
+}
+
+#cuerpo{
+	margin:0px;
+	float:left;
+	width:854px;
+}
+
+#contenido{
+	padding:14px;
+	text-align:justify;
+}
+
+#barraDerecha{
+
+	background-color:#eff4ee;
+	text-align:center;
+	float:left;
+	width:196px;
+	height:700px;
+}
+
+#noticia1{
+	text-align:center;
+	width:100%;
+	height:320px;
+	font-size:.7em;
+}
+#noticia2{
+	text-align:center;
+	width:100%;
+	height:320px;
+	font-size:.7em;
+}
+
+
+.fecha{
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+}
+
+
+#pie{
+	clear:both;
+	width:1184px;
+	text-align:center;
+	font: 12px arial, sans-serif;
+	padding:8px;
+}
+
+th{
+	background-color:gray;
+	color:white;
+}
+
+.par{
+	background-color:azure;
+}
